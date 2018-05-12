@@ -1,0 +1,8 @@
+Repository of working nginx-proxy-protocol to show real ip address of client and to allow specific IP with stream.
+
+nginx version: nginx/1.14.0
+built by gcc 4.8.5 20150623 (Red Hat 4.8.5-28) (GCC) 
+built with OpenSSL 1.0.2k-fips  26 Jan 2017
+TLS SNI support enabled
+configure arguments: --with-http_ssl_module --with-stream_realip_module --with-http_realip_module --with-stream --with-stream_ssl_module --with-stream_ssl_preread_module
+``
