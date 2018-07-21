@@ -19,17 +19,17 @@ Give examples
 
 ### Installing
 
-**yum install openssl-devel zlib-devel pcre-devel**
-**yum groupinstall "Development Tools"**
-**wget http://nginx.org/download/nginx-1.14.0.tar.gz**
-**tar -xvf nginx-1.14.0.tar.gz && cd nginx-1.14.0**
-**./configure --with-http_ssl_module \
+1. ```yum install openssl-devel zlib-devel pcre-devel```
+2. ```yum groupinstall "Development Tools"```
+3. ```wget http://nginx.org/download/nginx-1.14.0.tar.gz```
+4. ```tar -xvf nginx-1.14.0.tar.gz && cd nginx-1.14.0```
+5. ```./configure --with-http_ssl_module \
          --with-stream_realip_module \
          --with-http_realip_module \
          --with-stream \ 
          --with-stream_ssl_module\
-         --with-stream_ssl_preread_module**
-**make && make install**
+         --with-stream_ssl_preread_module```
+6. ```make && make install```
 
 Say what the step will be
 
@@ -71,8 +71,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+* shell commands
+* skill
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
@@ -81,7 +81,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [git](https://git.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
