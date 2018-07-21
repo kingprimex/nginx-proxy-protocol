@@ -8,10 +8,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-"@Development Tools"
-"openssl-devel"
-"zlib-devel"
-"pcre-devel"
+1. "@Development Tools"
+2. "openssl-devel"
+3. "zlib-devel"
+4. "pcre-devel"
 
 ```
 Give examples
@@ -23,7 +23,8 @@ Give examples
 2. ```yum groupinstall "Development Tools"```
 3. ```wget http://nginx.org/download/nginx-1.14.0.tar.gz```
 4. ```tar -xvf nginx-1.14.0.tar.gz && cd nginx-1.14.0```
-5. ```./configure --with-http_ssl_module \
+5. ```
+./configure --with-http_ssl_module \
          --with-stream_realip_module \
          --with-http_realip_module \
          --with-stream \ 
@@ -85,7 +86,7 @@ We use [git](https://git.com/) for versioning. For the versions available, see t
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Codrut Predoi** - *Initial work* - [kingprimex](https://github.com/kingprimex)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
