@@ -23,13 +23,15 @@ Give examples
 2. ```yum groupinstall "Development Tools"```
 3. ```wget http://nginx.org/download/nginx-1.14.0.tar.gz```
 4. ```tar -xvf nginx-1.14.0.tar.gz && cd nginx-1.14.0```
-5. ```
+5. 
+```
 ./configure --with-http_ssl_module \
          --with-stream_realip_module \
          --with-http_realip_module \
          --with-stream \ 
          --with-stream_ssl_module\
-         --with-stream_ssl_preread_module```
+         --with-stream_ssl_preread_module
+ ```
 6. ```make && make install```
 
 Say what the step will be
